@@ -1,0 +1,755 @@
+﻿{  
+  "projects":[
+    {
+      "id": "template",
+      "showProject": false,
+      "imgURL": "",
+      "title": "",
+      "description": "",
+      "download": {
+        "text": "",
+        "buttons": [
+          {
+            "name": "",
+            "text": "",
+            "link": ""
+          }
+        ]
+      },
+      "installation": {
+        "text": "",
+        "platforms": [
+          {
+            "name": "",
+            "text": ""
+          }
+        ]
+      },
+      "prevVersions": [
+        {
+          "name": "",
+          "link": ""
+        }
+      ],
+      "changelog": [
+        {
+          "name": "",
+          "verChanges": [
+            ""
+          ],
+          "testedOn": ""
+        }
+      ],
+      "extra": [
+        {
+          "subTitle": "",
+          "content": ""
+        }
+      ],
+      "documentation": [
+        {
+          "name": "",
+          "link": ""
+        }
+      ],
+      "sourceCode": [
+        {
+          "name": "",
+          "root": "",
+          "main": "",
+          "github": ""
+        }
+      ]
+    },
+	{
+      "id": "fluidSim",
+      "showProject": true,
+      "imgURL": "img/thumbnails/fluid-sim.png",
+      "title": "FPGA Fluid Simulator Fire Particles",
+      "description": "",
+      "documentation": [
+        {
+          "name": "Fire Dissertation",
+          "link": "downloads/documentation/Fire Dissert.pdf"
+        }
+      ],
+      "sourceCode": [
+        {
+          "name": "",
+          "root": "",
+          "main": "",
+          "github": "https://github.com/Deahgib/Fire-Opengl"
+        }
+      ]
+    },
+
+	{
+      "id": "factory",
+      "showProject": true,
+      "imgURL": "img/thumbnails/factory.png",
+      "title": "Factory Game",
+      "description": "For this project I decided to build a factorio inspired 3d factory demo. The project is build using the unreal engine. The factory consists is built on the principle of conveyor belts, and robot arms that pick up and move items into factories or onto other belts.<br />The project uses both physics and animation to move items through the factory process.<br />The physics was coded using unreal c++ classes, This gave me more exact control over the calculations to try to minimise the process time. The animations were done using unreal blueprints.",
+      "extra": [
+	    {
+          "subTitle": "Video",
+          "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/WY4ZUZ12t8A' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        },
+        {
+          "subTitle": "Images",
+          "content": "<img width='560' height='315' src='img/factory/crafter.gif' /> <br /><br /> <img width='560' height='315' src='img/factory/factory.gif' /> <br /><br /> <img width='560' height='315' src='img/factory/inserter.gif' /> <br /><br /> <img width='560' height='315' src='img/factory/spliter.gif' /> <br /><br /> <img width='560' height='315' src='img/factory/items.png' /> <br /><br /> <img width='560' height='315' src='img/factory/stresstest.png' />"
+        }
+		
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"downloads/documentation/Factory.pdf"
+        }
+      ],
+      "sourceCode": [
+        {
+          "name": "",
+          "root": "",
+          "main": "",
+          "github": "https://github.com/Deahgib/Factory"
+        }
+      ]
+    },
+    {  
+      "id":"race-track",
+      "showProject":true,
+      "imgURL":"img/thumbnails/racetrack.png",
+      "title":"Race Track",
+      "description": "Goldsmiths university group project. The working name of the project was 'Project Scarlet'  My team and I built and designed a tool which generates race tracks based off a bezier or catmull rom curve. The height of the track is done using 2D perlin noise. The program exports the track in a .ply file which can be converted to fbx and imported into both Unity3d and Unreal 4.",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/Sxa0mwhvSQU' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"downloads/documentation/ProjectScarlett.pdf"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Maths-Assignment2/RaceTrack"
+        }
+      ]
+    },
+	{  
+      "id":"refract-reflect-shader",
+      "showProject":true,
+      "imgURL":"img/thumbnails/refract-reflect.png",
+      "title":"Refraction and Relfection openGL shaders",
+      "description": "The aim of this project was to simulate light reflection and refraction on objects in real time. <br />Originally we started building our code using the octet opengl system of scene’s and meshes, But quickly we changed system as we narrowed down our task and decided to implement our own opengl code from scratch. This gave us more freedom over the mesh data structures and the shader code, which was what needed. We built the project in a custom rendering pipeline built with parts of octet. <br />The jobs were split mostly as follows although much collaboration took place as the code base is not very large: <br />Louis; opengl rendering, obj reader, opengl data structure, shader work and GL projection code. <br />Abdullah; octet rendering, opengl rendering, shader work, phong lighting shader. <br />Leyla; skybox, cubemap textures, reflective & refractive calculations for shaders, shader work. <br />",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/ny_T3JI6_gQ' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"downloads/documentation/Light rendering.pdf"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"LightRendering",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Maths-Assignment2/LightRendering"
+        }
+      ]
+    },
+	{  
+      "id":"fourfours",
+      "showProject":true,
+      "imgURL":"img/thumbnails/fourfours.png",
+      "title":"Four Fours: A maths game",
+      "description":"This is an old puzzle game! The game requires the user to find a solution for a given integer using exactly four 4s. The player can use as many parentheses and operators as they need to find a solution. They can also concatenate the digits of 4 together as long as only 4 digits are used. For example: 1 = (4/4)/(4/4) or 1 = 44 / 44. In 1892 the game was proposed in a scientific magazine publication. A solution for all integers was later discovered using a formula. This formula uses square roots which I deem an unfair operation, as fourth roots or 44th roots are more acceptable. However, many solutions exist without the formula.",
+      "extra":[  
+        {  
+          "subTitle":"Results of Server App",
+          "content":"<a href='http://bennette.co.uk/FourFours/Index.php'>Webpage</a> showing the results of the app users."
+        }
+      ],
+	  "documentation":[  
+        {  
+          "name":"Report",
+          "link":"https://github.com/Deahgib/FourFoursServer/blob/master/Louis_Adv_Programming_Report.md"
+        }
+      ],
+	  "sourceCode":[  
+        {  
+          "name":"FourFours Unity App",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Deahgib/FourFours"
+        },
+		{  
+          "name":"FourFours Server",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Deahgib/FourFoursServer"
+        }
+      ]
+    },
+    {  
+      "id":"dung-gen",
+      "showProject":true,
+      "imgURL":"img/thumbnails/dung-gen.png",
+      "title":"Dungeon Generator",
+      "description": "Goldsmiths university group project. Using the principle of modular kit meshes, my team and I created proceduraly generated dungeons from simple meshes. <img src='img/components.png' alt='Kit Components' width='500' height='350'><br/>  I was responsible for generating rooms. This is similar to techniques used by large studios such as bethesda.",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/M5eZYUUEf8k' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"https://github.com/witold-gawlowski/dungeonmaker/blob/master/Louis_Bennette_Report.md"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/witold-gawlowski/dungeonmaker"
+        }
+      ]
+    },
+    {  
+      "id":"descent",
+      "showProject":true,
+      "imgURL":"img/thumbnails/descent.png",
+      "title":"Descent",
+      "description": "Goldsmiths university group project. Using Unreal Engine 4 my group and I developed an Egyptian themed thriller puzzle game. The project was developed by 3 programmers and 4 artists",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/H7Oh1xJ3M38' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"https://github.com/parmandorc/Descent/blob/submition/LouisBennette-Report.md"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/parmandorc/Descent/tree/master"
+        }
+      ]
+    },
+    {  
+      "id":"lsys",
+      "showProject":true,
+      "imgURL":"img/thumbnails/lsystems.png",
+      "title":"L-Systems",
+      "description": "Goldsmiths university project. In this project I built a L-Systems tree and fractal generator with a variety of live parameter controls. The generation process uses a formal grammar which tranforms axioms (characters) into other axioms or strings of axioms. The output is a string which is interpreted to render branches and leaves.",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/rglL_ebrodY' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Report",
+          "link":"/downloads/documentation/mathematics-graphics-i.pdf"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Deahgib/LSystems"
+        }
+      ]
+    },
+    {  
+      "id":"ropebridge",
+      "showProject":true,
+      "imgURL":"img/thumbnails/rope-bridge.png",
+      "title":"Rope Bridge Bullet Physics",
+      "description":"This project was set by Goldsmiths university, it shows an example of using spring and hinge constraints using bullet physics",
+      
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/0lu2ozDIwPk' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Deahgib/octet/tree/rope-bridge"
+        }
+      ]
+    },
+    {  
+      "id":"tankgame",
+      "showProject":true,
+      "imgURL":"img/thumbnails/invaderers.png",
+      "title":"Tank Game",
+      "description":"This project was set by Goldsmiths university, I was asked to hack the code of a space invaders game to completly change the game's functionally and use custom GLSL shaders.",
+      "extra":[  
+        {  
+          "subTitle":"Video",
+          "content":"<iframe width='560' height='315' src='https://www.youtube.com/embed/-xZ5i3ghtQs' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":"https://github.com/Deahgib/octet/tree/assignment1"
+        }
+      ]
+    },
+    {  
+      "id":"battleships",
+      "showProject":true,
+      "imgURL":"img/thumbnails/battleships.png",
+      "title":"Battleships",
+      "description":"The Battleships project was my 3rd year project for the university of Liverpool. I was lucky enough to be able to create a game over the course of a year. Available on this page are links to my documentation of this project as well as downloads to the game and the game’s source code.",
+      "download":{  
+        "text":"The following link is a download to the latest functional build of Battleships. Currently the game is in alpha, this means some features wont work, are bugged or aren’t implemented yet. <br />If you find a bug please write to me where/how it happened in the contact form on this site.",
+        "buttons":[  
+          {  
+            "name":"Windows",
+            "text":"",
+            "link":"https://mega.co.nz/#!ztxnXJaa!_1vpyLd8HC2XVeS9MjTsDSrTyHWMgCkfArQwB9rPVtY"
+          },
+          {  
+            "name":"Mac",
+            "text":"!! Mac version is currently unstable. I am experiencing problems with retina displays. !! You may still download the mac client however they may be graphical glitches and the game may be unstable.",
+            "link":"https://mega.co.nz/#!v9JTjR6D!DMtZteB_Nurv3qvog_zQ6SOfDCdguBdTL3etLT-5WMs"
+          },
+          {  
+            "name":"Linux",
+            "text":"",
+            "link":"https://mega.co.nz/#!KooSVDBI!hTI2n5kEiey-cP76JeAYzsUZCRX5IAJHbfHqC5gc15I"
+          }
+        ]
+      },
+      "installation":{  
+        "installation":"To install the client you first need to download the latest build found above for your specific platform. If the installation doesn’t work, check that you have java version 1.7 or higher installed. <br />If the problem persists please contact me.",
+        "platforms":[  
+          {  
+            "name":"Windows",
+            "text":"Unzip the file, where you want to keep it. <br />And that’s it. You should be able to run the game! <br />Run the Battleships.exe program found inside the directory that has been extracted to run the game."
+          },
+          {  
+            "name":"Mac",
+            "text":"Unzip the file, where you want to keep it. <br />And that’s it. You should be able to run the game!<br />Run the Battleships.jar program found inside the directory that has been extracted to run the game. <br />Or run the command <kbd>java -jar <\\gamepath>\\Battleships.jar</kbd> in the terminal."
+          },
+          {  
+            "name":"Linux",
+            "text":"Unzip the file, where you want to keep it. <br />And that’s it. You should be able to run the game! <br />Run the Battleships.jar using the command <kbd>java -jar <\\gamepath>\\Battleships.jar\\</kbd> in the terminal."
+          }
+        ]
+      },
+      "changelog":[  
+        {  
+          "name":"Alpha 7: (latest)",
+          "verChanges":[  
+            "Fixed shooting bug in multiplayer. Users can no longer fire more than once per turn.",
+            "Fixed message event bug, server driven events run in their own separate thread, now separate from the message listener thread."
+          ],
+          "testedOn":"Windows"
+        },
+        {  
+          "name":"Alpha 6:",
+          "verChanges":[  
+            "Added options, user can mute music or sound effects.",
+            "The user can now change their name in game via the options menu.",
+            "The user can now set what IP they would like to try and connect to for multiplayer games.",
+            "Aesthetic changes, the ships have all been designed and are now part of this build. ALL textures are finalised."
+          ],
+          "testedOn":"Windows"
+        },
+        {  
+          "name":"Alpha 5:",
+          "verChanges":[  
+            "Added a load up image so users know that the game is working rather than having a black screen.",
+            "Username feature, a user only needs to type in their username once (will be editable in options in a future version)."
+          ],
+          "testedOn":"Windows"
+        },
+        {  
+          "name":"Alpha 4:",
+          "verChanges":[  
+            "Added Username support for multiplayer games.",
+            "Multiplayer no longer crashes if the server can’t be found.",
+            "On connection the user is informed of what attempts are being made to connect and on fail the client remains stable."
+          ],
+          "testedOn":"Windows"
+        },
+        {  
+          "name":"Alpha 3:",
+          "verChanges":[  
+            "Added primitive multiplayer support.",
+            "A multiplayer game can be played across a network."
+          ],
+          "testedOn":"Windows"
+        },
+        {  
+          "name":"Alpha 2:",
+          "verChanges":[  
+            "Added a sound loader and sounds to the game."
+          ],
+          "testedOn":"OSX and Windows"
+        },
+        {  
+          "name":"Alpha 1:",
+          "verChanges":[  
+            "Build of a fully working singleplayer game.",
+            "Game Menu for navigation.",
+            "Single player game option.",
+            "Working AI.",
+            "Full graphics support."
+          ],
+          "testedOn":"OSX and Windows"
+        }
+      ],
+      "extra":[  
+        {  
+          "subTitle":"Server",
+          "content":"Only use if you know what you are doing. <br />Clear instructions on creating a personal server are being worked on. <br />The following is a link to download the server, your client can connect to this server on your network as long as you specify the IP of the server in config/server.txt found in your client installation directory. <br /> <div class='button-container'><a class='btn btn-default' target='_blank' href='https://mega.co.nz/#!W0QEHBZC!thjwe-8WdsQxhbwoDfOV1J1syxeXuQm1hi68V4DQgxU' role='button'>Command Line Server</a><a class='btn btn-default' target='_blank' href='https://mega.co.nz/#!XsQjyL5a!jVpJErcC1HhICX6XExQCQptYM8fvywinTXwqaml1OMk' role='button'>GUI Server</a></div>"
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"Specification",
+          "link":"downloads/documentation/BattleshipsSpecification.pdf"
+        },
+        {  
+          "name":"Design",
+          "link":"downloads/documentation/BattleshipsDesign.pdf"
+        },
+        {  
+          "name":"Report",
+          "link":"downloads/documentation/BattleshipsReport.pdf"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"Client Source Code",
+          "root":"downloads/battleships-client-source/battleships/",
+          "main":"downloads/battleships-client-source/battleships/BattleshipsMain.java"
+        },
+        {  
+          "name":"Server Source Code",
+          "root":"downloads/battleships-server-source/battleshipsserver/",
+          "main":"downloads/battleships-server-source/battleshipsserver/BattleshipsServerMain.java"
+        }
+      ]
+    },
+    {  
+      "id":"sorteranim",
+      "showProject":true,
+      "imgURL":"img/thumbnails/sorter-anim.png",
+      "title":"Sorting Visualiser",
+      "description":"Inspired by the youtube video below, this program sorts an array represented graphically as an animation. The user can randomise the array and watch it being sorted.<br/>",
+      "download":{  
+        "text":"",
+        "buttons":[  
+          {  
+            "name":"Download",
+            "text":"Download the latest version of the sorting visualiser",
+            "link":"downloads/programs/java/Sorter.jar"
+          }
+        ]
+      },
+      "prevVersions":[  
+        {  
+          "name":"Sorter Animation V5",
+          "link":"downloads/programs/java/Sorter_V5.jar"
+        },
+        {  
+          "name":"Sorter Animation V4",
+          "link":"downloads/programs/java/Sorter_V4.jar"
+        },
+        {  
+          "name":"Sorter Animation V3",
+          "link":"downloads/programs/java/Sorter_V3.jar"
+        },
+        {  
+          "name":"Sorter Animation V2",
+          "link":"downloads/programs/java/Sorter_V2.jar"
+        },
+        {  
+          "name":"Sorter Animation V1",
+          "link":"downloads/programs/java/Sorter_V1.jar"
+        }
+      ],
+      "changelog":[  
+        {  
+          "name":"V6 (latest) (11/05/2015)",
+          "verChanges":[  
+            "Added dynamic sounds based on selected element size.",
+            "Implemented Quick sort.",
+            "Removed sorting speed feature.",
+            "Added better step timing during sort.",
+            "Added random value sizes feature.",
+            "Refactored code base."
+          ]
+        },
+        {  
+          "name":"V5 (17/05/2014)",
+          "verChanges":[  
+            "Added new Specials feature.",
+            "Added Reverse button under Specials which gives the user an exact reverse mapping of the array.",
+            "Implemented Insertion sort.",
+            "Added and Implemented the cocktail shaker sort."
+          ]
+        },
+        {  
+          "name":"V4 (13/05/2014)",
+          "verChanges":[  
+            "Resolution of the display changed to 800X600 for a 4:3 aspect ratio.",
+            "The user can now select how many items will be sorted. (25, 50, 100 or 200)",
+            "The user can select the speed of the animation. This is the time between each step of the animation. (Slow, Normal or Fast)",
+            "The animation can be interrupted at any point when the stop button is pressed.",
+            "Added a table that stores interesting statistics about the the last four sorts. (Number of comparisons, number of swaps)"
+          ]
+        },
+        {  
+          "name":"V3 (06/05/2014)",
+          "verChanges":[  
+            "Colours have been fixed to represent the sort more clearly."
+          ]
+        },
+        {  
+          "name":"V2 (05/05/2014)",
+          "verChanges":[  
+            "Now allows the user to select between different sorting algorithms. (Bubble Sort and Selection Sort)",
+            "Also added Insertion sort. (Not yet implemented)"
+          ]
+        }
+      ],
+      "extra":[  
+        {  
+          "subTitle":"Youtube Video",
+          "content":"This is the famous online video that inspired me to create my sorter anim. <br/><iframe style='width:100%; height:300px;' src='https://www.youtube.com/embed/kPRA0W1kECg' frameborder='0' allowfullscreen></iframe>"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"Sorter Anim Source",
+          "root":"downloads/src_files/java/Sorter/sorter",
+          "main":"downloads/src_files/java/Sorter/sorter/Sorter.java",
+          "github":""
+        }
+      ]
+    },
+    {  
+      "id":"sketchinv",
+      "showProject":true,
+      "imgURL":"img/thumbnails/sketch-inv.png",
+      "title":"Sketch Invaders",
+      "description":"<br/>This is a retake on the classic space invaders game. I created this game as a practice before starting my dissertaion in order to familiarise myself with OpenGL and OpenAL. I coded this using the <a href='http://legacy.lwjgl.org/'>LWJGL library</a>, this is an interface to OpenGL and OpenAL for Java. LWJGL also provides access to key presses, mouse events, texture loading and font rendering.<br />If you are interested in LWJGL feel free to download or navigate the source code below.",
+      "download":{  
+        "text":"Unzip the file and run the .jar, make sure that the \"assets\" folder and the \"Sketch Invaders.jar\" are next to each other in the same folder.",
+        "buttons":[  
+          {  
+            "name":"Download",
+            "text":"",
+            "link":"downloads/game/Sketch Invaders Dist.zip"
+          }
+        ]
+      },
+      "sourceCode":[  
+        {  
+          "name":"Source Files",
+          "root":"downloads/src_files/java/SketchInvaders/",
+          "main":"downloads/src_files/java/SketchInvaders/spaceinvaders/Main.java"
+        }
+      ]
+    },
+    {  
+      "id":"sacnlight",
+      "showProject":true,
+      "imgURL":"img/thumbnails/sACN lib.png",
+      "title":"sACN Light Control",
+      "description":"For this project I implemented the ANSI E1.31 ACN standard. I wrote the program to controll a dmx light I have in my room. I use a gateway to read the sACN packets and output the dmx. The standard can be found <a href='http://tsp.plasa.org/tsp/documents/docs/E1-31_2009.pdf'>here</a>. I implemented a single static light in the program and I can control the lght's colours using onscreen faders.<br /><br />Because this program is specialised to my desk and room it is not for download, however, I have implemented it in java and in c++ (Qt). If you wish to obtain a copy for yourself, please contact me.",
+      "documentation":[  
+        {  
+          "name":"ACN E1.31 Standard",
+          "link":"http://tsp.plasa.org/tsp/documents/docs/E1-31_2009.pdf"
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"Java sACN custom library src",
+          "root":"downloads/src_files/java/sACN4J",
+          "main":"downloads/src_files/java/sACN4J/SACN4J.java",
+          "github":""
+        },
+        {  
+          "name":"C++ sACN code in QT",
+          "root":"downloads/src_files/cpp/sACN-QT",
+          "main":"downloads/src_files/cpp/sACN-QT/mainwindow.cpp",
+          "github":""
+        }
+      ]
+    },
+    {  
+      "id":"codeviewer",
+      "showProject":true,
+      "imgURL":"img/thumbnails/code-viewer.png",
+      "title":"Code Viewer",
+      "description":"The code viewer Was created to allow users of my website to easily navigate any source code they may want to see. Please view the code viewer code in the code viewer :)<br />I achieved this code view by using three diferent open projects.<br/><br/>The first is highlight.js, this gave me code colour and formating. It's very easy to use and has many other code styles. <br/><br/>The second was PHP File Tree by Cory LaViska. This generates an expandable folder list which I use for code base navigation. <br/><br/>Finally I made use of jQuery UI Layout Plug-in to seperate my view into two panes one for the code, the other for the nav tree. This is collapsable and adjustable for the site user to adjust as they please.<br/><br/>",
+      "sourceCode":[  
+        {  
+          "name":"Code Viewer",
+          "root":"downloads/src_files/web/codeviewer/",
+          "main":"downloads/src_files/web/codeviewer/codeViewer.html",
+          "github":""
+        }
+      ]
+    },
+    {  
+      "id":"csweb",
+      "showProject":false,
+      "imgURL":"img/chaos-lord.jpg",
+      "title":"Console Web",
+      "description":"Rewrite when product is released.",
+      "download":{  
+        "text":"",
+        "buttons":[  
+          {  
+            "name":"",
+            "text":"",
+            "link":""
+          }
+        ]
+      },
+      "installation":{  
+        "text":"",
+        "platforms":[  
+          {  
+            "name":"",
+            "text":""
+          }
+        ]
+      },
+      "prevVersions":[  
+        {  
+          "name":"",
+          "link":""
+        }
+      ],
+      "changelog":[  
+        {  
+          "name":"",
+          "verChanges":[  
+            ""
+          ],
+          "testedOn":""
+        }
+      ],
+      "extra":[  
+        {  
+          "subTitle":"",
+          "content":""
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"",
+          "link":""
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":""
+        }
+      ]
+    },
+    {  
+      "id":"arduinostrip",
+      "showProject":false,
+      "imgURL":"img/chaos-lord.jpg",
+      "title":"RGB LED strip controller",
+      "description":"Hardware project using the arduino.",
+      "download":{  
+        "text":"",
+        "buttons":[  
+          {  
+            "name":"",
+            "text":"",
+            "link":""
+          }
+        ]
+      },
+      "installation":{  
+        "text":"",
+        "platforms":[  
+          {  
+            "name":"",
+            "text":""
+          }
+        ]
+      },
+      "prevVersions":[  
+        {  
+          "name":"",
+          "link":""
+        }
+      ],
+      "changelog":[  
+        {  
+          "name":"",
+          "verChanges":[  
+            ""
+          ],
+          "testedOn":""
+        }
+      ],
+      "extra":[  
+        {  
+          "subTitle":"",
+          "content":""
+        }
+      ],
+      "documentation":[  
+        {  
+          "name":"",
+          "link":""
+        }
+      ],
+      "sourceCode":[  
+        {  
+          "name":"",
+          "root":"",
+          "main":"",
+          "github":""
+        }
+      ]
+    }
+  ]
+}

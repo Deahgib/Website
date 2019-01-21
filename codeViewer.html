@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/code.css">
+    <link rel="stylesheet" href="css/tree-styles/tree-style.css">
+    <link rel="stylesheet" href="css/code-styles/tomorrow-night-eighties.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+</head>
+<body>
+    <?php
+        include 'header.html';
+        include 'php/php_file_tree.php';
+        $rootPath = $_GET["rootPath"];
+    ?>
+    <div id="code-view" class="container">
+        <div id="split-layout-container" class="content ui-layout-container">
+            <div id="code-body" class="code-body ui-layout-center ui-layout-pane">
+                <pre>
+                    <code id="code-content"></code>
+                </pre>
+            </div>
+            <div id="code-tree" class="code-dir-tree ui-layout-west ui-layout-pane">
+                <div id="github-hover-sidebar"></div>
+                <h3>title</h3>
+
+<?php 
+    echo php_file_tree($rootPath, "javascript:loadNewFile('[link]');"); 
+?>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/jquery-ui.min.js"></script>
+    <script src="js/lib/jquery.layout-latest.js"></script>
+    <script src="js/lib/php_file_tree_jquery.js"></script>
+    <script src="js/lib/highlight.pack.js"></script>
+    <script src="js/code-viewer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+﻿{
+    "projects":  [
+        {
+            "id": "battleships",
+            "title": "Battleships",
+            "imgURL": "img/thumbnails/battleships.png"
+        },
+        {
+            "id": "sorteranim",
+            "title": "Sorting Visualiser",
+            "imgURL": "img/thumbnails/sorter-anim.png"
+        },
+        { 
+            "id": "sketchinv",
+            "title": "Sketch Invaders",
+            "imgURL": "img/thumbnails/sketch-inv.png"
+        },
+        {
+            "id": "doscales",
+            "title": "Do Scales!",
+            "imgURL": "img/thumbnails/do-scales.png"
+        },
+        {
+            "id": "quadsolver",
+            "title": "Quadratic Solver",
+            "imgURL": "img/thumbnails/quad-solver.png"
+   	}
+    ]
+}

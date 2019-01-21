@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body{
+            background-color:#808080;
+        }
+        .button{
+            position:relative;
+            background-color:#fff;
+            border-radius:5px;
+            border: 1px solid #808080;
+            height: 30px;
+            cursor: pointer;
+        }
+        .button span{
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+        .button .loader{
+            position: absolute;
+            height:100%;
+            left:0;
+            width:0%;
+            background-color:#0094ff;
+            border-radius:5px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="mySexChart" width="200" height="200"></canvas>
+    <canvas id="myClassChart" width="200" height="200"></canvas>
+
+    <div class="button" id="calculate-total-stats">
+        <div class="loader"></div>
+        <span>Calculate total stats</span>
+    </div>
+
+    <table>
+        <th>
+            <td>Total</td>
+            <td>Max</td>
+            <td>Best Char</td>
+        </th>
+        <tr>
+            <td>Strength</td>
+            <td id="strTot"></td>
+            <td id="strMax"></td>
+            <td id="strBest"></td>
+        </tr>
+        <tr>
+            <td>Agility</td>
+            <td id="agiTot"></td>
+            <td id="agiMax"></td>
+            <td id="agiBest"></td>
+        </tr>
+        <tr>
+            <td>Intellect</td>
+            <td id="intTot"></td>
+            <td id="intMax"></td>
+            <td id="intBest"></td>
+        </tr>
+        <tr>
+            <td>Stamina</td>
+            <td id="staTot"></td>
+            <td id="staMax"></td>
+            <td id="staBest"></td>
+        </tr>
+    </table>
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/Chart.js"></script>
+
+    <script src="js/globals.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/wow.js"></script>
+</body>
+</html>

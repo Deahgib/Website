@@ -1,0 +1,121 @@
+﻿.project{
+    position:relative;
+    background-color:white;
+    border:1px solid #DDDDDD;
+    border-radius:5px;
+    padding:15px;
+}
+
+.project h2{
+    font-family:logoFont;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+}
+
+.project .banner{
+    position:relative;
+    width: 100%;
+    height:150px;
+    border-radius: 10px 10px 0 0 ;
+    margin-bottom:20px;
+}
+
+.project h1{
+    margin:0px;
+    margin-top:10px;
+    position:relative;
+    top:5%;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    
+    
+}
+
+.gradient-overlay {
+    
+    border-radius: 10px 10px 0 0 ;
+    border:1px solid #eeeeee;
+    border-bottom:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.00), #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00), #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00), #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00),rgba(0, 0, 0, 0.00), #fff); /* Standard syntax */
+}
+
+.project-row {
+    position:relative;
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+    padding:10px;
+
+    background-color:#EEEEEE;
+    border:1px solid #cccccc;
+}
+
+.project-row .prev-versions-left{
+    float:left;
+}
+
+.project-row .prev-versions-right{
+    float:right;
+}
+
+.project-row.change{
+    position:relative;
+    background-color:#EEEEEE;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+.project-row.change .tested-on{
+    font-style:italic;
+}
+
+.download a {
+    float:left;
+    width:20%;
+    min-width:100px;
+    margin-right:20px;
+}
+.download text {
+    float:left;
+    width:80%;
+}
+
+.project-collapse-toggle{
+    width: 100%;
+}
+
+/*BUTTONS*/
+
+
+.button-container{
+    display:inline-block;
+    text-align:center;
+    width:100%;
+}
+.button-container a,
+.button-container button{
+    margin: 20px;
+}
+
+.proj-button-holder{
+    display:inline-block;
+    text-align:center;
+    margin: 20px;
+    width:auto;
+}
+
+.button-container .proj-button-holder a,
+.button-container .proj-button-holder button {
+    margin: 0px 5px;
+}
+

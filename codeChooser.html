@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Code Viewer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/codeChooser.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <?php include 'header.html'; ?>
+
+    <div class="container code-choose-container">
+        <div class="content">
+            <div class="code-choose-listing">
+            </div>
+        </div>
+        <?php include 'footer.html'; ?>
+    </div>
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            jQuery.getJSON("data/projects.json", function (data) {
+                var genHTML = "<h3>View Code:</h3><p>Select the project for which you wish to view the source code.</p>";
+                for (var i = 0; i < data.projects.length; i++) {
+                    var project = data.projects[i];
+                    if (project.sourceCode != undefined && project.showProject) {
+                        for (var j = 0; j < project.sourceCode.length; j++) {
+							if(project.sourceCode[j].root === undefined || project.sourceCode[j].root.valueOf() == ""){
+								continue;
+							}
+                            var sourceCode = project.sourceCode[j];
+                            genHTML += "<div class='project-item'>";
+                            genHTML += "<div class='centered-image-item project-item-image'>";
+                            genHTML += "<img src='" + project.imgURL + "'>";
+                            genHTML += "</div><div class='title-container project-item-title'>";
+                            genHTML += "<h3 class='title'>" + project.title + "</h3>";
+                            genHTML += "<h4 class='info'>" + sourceCode.name + "</h3>";
+                            genHTML += "</div>";
+                            genHTML += "<a href='codeViewer.html?rootPath=" + sourceCode.root +  "&projId=" + project.id + "&srcObj=" + j + "'><div class='overlay'></div></a>";
+                            genHTML += "</div>";
+                        }
+                    }
+                }
+                $(".code-choose-listing").html(genHTML);
+                $(".centered-image-item img").load(function () {
+                    repositionSplashImages();
+                });
+            });
+            $(window).on('resize', function () {
+                repositionSplashImages();
+            });
+        });
+    </script>
+</body>
+</html>

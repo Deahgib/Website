@@ -1,0 +1,84 @@
+﻿{
+    "main": [
+        {
+            "title": "Battleships",
+            "imgURL": "img/thumbnails/battleships.png",
+            "id": "battleships",
+            "path": "project.html"
+        },
+        {
+            "title": "Sorting Visualiser",
+            "imgURL": "img/thumbnails/sorter-anim.png",
+            "id": "sorteranim",
+            "path": "project.html"
+        },
+        {
+            "title": "Race Track",
+            "imgURL": "img/thumbnails/racetrack.png",
+            "id": "race-track",
+            "path": "project.html"
+        },
+        {
+            "title": "Dungeon Generator",
+            "imgURL": "img/thumbnails/dung-gen.png",
+            "id": "dung-gen",
+            "path": "project.html"
+        },
+        {
+            "title": "L-Systems",
+            "imgURL": "img/thumbnails/lsystems.png",
+            "id": "lsys",
+            "path": "project.html"
+        },
+        {
+            "title": "Factory Game",
+            "imgURL": "img/thumbnails/factory.png",
+            "id": "factory",
+            "path": "project.html"
+        }
+    ],
+    "small": [ 
+        {
+            "title": "Code Viewer",
+            "imgURL": "img/thumbnails/code-viewer.png",
+            "id": "",
+            "path": "codeChooser.html"
+        },
+        {
+            "title": "Sketch Invaders",
+            "imgURL": "img/thumbnails/sketch-inv.png",
+            "id": "sketchinv",
+            "path": "project.html"
+        },
+        {
+            "title": "Descent",
+            "imgURL": "img/thumbnails/descent.png",
+            "id": "descent",
+            "path": "project.html"
+        },
+        {
+            "title": "Rope Bridge",
+            "imgURL": "img/thumbnails/rope-bridge.png",
+            "id": "ropebridge",
+            "path": "project.html"
+        },
+        {
+            "title": "Tank Game",
+            "imgURL": "img/thumbnails/invaderers.png",
+            "id": "tankgame",
+            "path": "project.html"
+        },
+        {
+            "title": "Four Fours: A maths game",
+            "imgURL": "img/thumbnails/fourfours.png",
+            "id": "fourfours",
+            "path": "project.html"
+        },
+        {
+            "title": "Refraction and Relfection openGL shaders",
+            "imgURL": "img/thumbnails/refract-reflect.png",
+            "id": "refract-reflect-shader",
+            "path": "project.html"
+        }
+    ]
+}

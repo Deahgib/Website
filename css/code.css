@@ -1,0 +1,66 @@
+﻿html, body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#code-view{
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+}
+
+#split-layout-container{
+    height:100%;
+}
+
+#code-tree{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-color:#a9c7c0;
+    border:2px solid #3D4943;
+}
+
+#code-tree h3 {
+    margin-left:10px;
+}
+
+#code-body{
+    overflow-y:scroll;
+    border:2px solid #3D4943;
+}
+
+#code-body pre{
+    padding: 0;
+    margin: 0;
+    background-color:none;
+    border:none;
+    border-radius:0;
+}
+
+.ui-layout-resizer{
+    border-left:1px solid #3D4943;
+    border-right:1px solid #3D4943;
+    background-color:#E3F6F2;
+}
+
+.ui-layout-toggler-west{
+    background-image: url("../img/grips/vertical.png");
+}
+
+#github-hover-sidebar{
+    position:relative;
+    top:0;
+    right:0;
+    width:100%;
+    height:auto;
+    text-align:center;
+    padding: 3px;
+}
+
+#github-hover-sidebar a{
+    padding-right:10px;
+}
